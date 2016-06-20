@@ -1,0 +1,23 @@
+ErrorDocument 404 /Template/errors/_404.html 
+ErrorDocument 500 /Template/errors/_500.html
+ErrorDocument 401 /Template/errors/_401.html
+ErrorDocument 403 /Template/errors/_403.html
+ErrorDocument 405 /Template/errors/_405.html
+ErrorDocument 408 /Template/errors/_408.html
+ErrorDocument 411 /Template/errors/_411.html
+ErrorDocument 412 /Template/errors/_412.html
+ErrorDocument 413 /Template/errors/_413.html
+ErrorDocument 414 /Template/errors/_414.html
+ErrorDocument 415 /Template/errors/_415.html
+#401 Authorization Required 
+#403 Forbidden 
+#404 Not Found 
+#405 Method Not Allowed 
+#408 Request Timed Out 
+#411 Content Length Required 
+#412 Precondition Failed 
+#413 Request Entity Too Long 
+#414 Request URI Too Long 
+#415 Unsupported Media Type 
+#常见的器错误返回代码： 
+#500 Internal Server Error 

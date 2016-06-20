@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="fireFrame.ico" />
+<title>fireFrame【错误提示页面】</title>
+</head>
+<body>
+<?php
+echo "记得上线时把debug改为0呦<br/>";
+if(isset($errno)){
+echo $errno,$errstr ,$errfile,$errline ;
+}
+if(isset($file)){
+echo "message:[$message]<br/><br/>file:[$file]<br/>,line:[$line]<br/>,function:[$function]<br/>,class:[$class]<br/>,type:[$type]";
+}
+?>
+</body>
+</html>
